@@ -1,0 +1,182 @@
+[
+  {
+    "id": "evt-0002",
+    "title": "Concierto Sinfónico de Verano",
+    "category": "musica",
+    "artists": ["Orquesta Filarmónica Nacional"],
+      "city": "Lima, Perú",
+      "venue": "Estadio Nacional",
+    "datetime": "2025-12-05T19:30:00-05:00",
+    "priceFrom": 120.00,
+    "currency": "COP",
+    "stock": 850,
+    "soldOut": false,
+    "popularity": 87,
+  "images": ["assets/events/evt-002/cover.jpg"],
+    "policies": {
+      "age": "Todas las edades",
+      "refund": "Reembolso hasta 48h antes"
+    },
+    "description": "Un repertorio de música clásica con obras de Beethoven y Mozart."
+  },
+  {
+    "id": "evt-0003",
+    "title": "Festival Urbano 2025",
+    "category": "festival",
+    "artists": ["Rapero X", "DJ Latina", "Banda Flow"],
+      "city": "Lima, Perú",
+      "venue": "Estadio Nacional",
+    "datetime": "2025-11-20T18:00:00-05:00",
+    "priceFrom": 150.00,
+    "currency": "PEN",
+    "stock": 30000,
+    "soldOut": false,
+    "popularity": 95,
+  "images": ["assets/events/evt-003/cover .jpg"],
+    "policies": {
+      "age": "18+",
+      "refund": "No reembolsable"
+    },
+    "description": "Un festival de música urbana con artistas internacionales y nacionales."
+  },
+  {
+    "id": "evt-0004",
+    "title": "Stand-Up Comedy Night",
+    "category": "standup",
+    "artists": ["Comediante A", "Comediante B"],
+      "city": "Lima, Perú",
+      "venue": "Estadio Nacional",
+    "datetime": "2025-10-18T21:00:00-03:00",
+      "priceFrom": 50.00,
+    "currency": "ARS",
+    "stock": 400,
+    "soldOut": false,
+    "popularity": 78,
+  "images": ["assets/events/evt-004/cover.jpg"],
+    "policies": {
+      "age": "16+",
+      "refund": "No reembolsable"
+    },
+    "description": "Una noche de comedia con risas garantizadas."
+  },
+  {
+    "id": "evt-0005",
+    "title": "Obra de Teatro: La Casa de Bernarda Alba",
+    "category": "teatro",
+    "artists": ["Compañía Nacional de Teatro"],
+      "city": "Lima, Perú",
+      "venue": "Estadio Nacional",
+    "datetime": "2025-09-15T20:00:00-06:00",
+      "priceFrom": 30.00,
+    "currency": "MXN",
+    "stock": 600,
+    "soldOut": false,
+    "popularity": 82,
+  "images": ["assets/events/evt-005/cover .jpg"],
+    "policies": {
+      "age": "12+",
+      "refund": "Reembolso hasta 72h antes"
+    },
+    "description": "Adaptación moderna de la clásica obra de Lorca."
+  },
+  {
+    "id": "evt-0006",
+    "title": "Maratón Rock al Parque",
+    "category": "musica",
+    "artists": ["Banda Rockera 1", "Banda Rockera 2"],
+  "city": "Lima, Perú",
+  "venue": "Estadio Nacional",
+    "datetime": "2025-11-10T14:00:00-05:00",
+    "priceFrom": 120.00,
+    "currency": "PEN",
+    "stock": 50000,
+    "soldOut": false,
+    "popularity": 98,
+  "images": ["assets/events/evt-006/cover .jpg"],
+    "policies": {
+      "age": "Todas las edades",
+      "refund": "Evento gratuito"
+    },
+    "description": "El festival gratuito más grande de rock en Latinoamérica."
+  },
+  {
+    "id": "evt-0007",
+    "title": "Ballet Clásico: El Lago de los Cisnes",
+    "category": "teatro",
+    "artists": ["Compañía Nacional de Ballet"],
+  "city": "Lima, Perú",
+  "venue": "Estadio Nacional",
+    "datetime": "2025-12-12T19:00:00-04:00",
+    "priceFrom": 200.00,
+    "currency": "CLP",
+    "stock": 1200,
+    "soldOut": false,
+    "popularity": 90,
+  "images": ["assets/events/evt-007/cover .jpg"],
+    "policies": {
+      "age": "10+",
+      "refund": "Reembolso hasta 7 días antes"
+    },
+    "description": "Una de las obras maestras del ballet clásico."
+  },
+  {
+    "id": "evt-0008",
+    "title": "Conferencia de Tecnología Futuro 2025",
+    "category": "otros",
+    "artists": ["Ponente Internacional", "Startups locales"],
+  "city": "Lima, Perú",
+  "venue": "Estadio Nacional",
+    "datetime": "2025-08-20T09:00:00-05:00",
+    "priceFrom": 100.00,
+    "currency": "USD",
+    "stock": 2500,
+    "soldOut": false,
+    "popularity": 85,
+  "images": ["assets/events/evt-008/cover .jpg"],
+    "policies": {
+      "age": "Todas las edades",
+      "refund": "Reembolso parcial hasta 5 días antes"
+    },
+    "description": "Una cumbre sobre innovación tecnológica y futuro digital."
+  },
+  {
+    "id": "evt-0009",
+    "title": "Festival de Jazz en la Costa",
+    "category": "musica",
+    "artists": ["Saxofonista A", "Banda B"],
+  "city": "Lima, Perú",
+  "venue": "Estadio Nacional",
+    "datetime": "2025-07-15T20:00:00-05:00",
+    "priceFrom": 75.00,
+    "currency": "COP",
+    "stock": 2000,
+    "soldOut": false,
+    "popularity": 70,
+  "images": ["assets/events/evt-009/cover .jpg"],
+    "policies": {
+      "age": "Todas las edades",
+      "refund": "No reembolsable"
+    },
+    "description": "Un festival de jazz frente al mar Caribe."
+  },
+  {
+    "id": "evt-0010",
+    "title": "Cine al Aire Libre: Ciclo de Clásicos",
+    "category": "otros",
+    "artists": ["CineClub Urbano"],
+  "city": "Lima, Perú",
+  "venue": "Estadio Nacional",
+    "datetime": "2025-09-22T19:00:00-05:00",
+    "priceFrom": 170.00,
+    "currency": "PEN",
+    "stock": 1500,
+    "soldOut": false,
+    "popularity": 65,
+  "images": ["assets/events/evt-0010/cover .jpg"],
+    "policies": {
+      "age": "Todas las edades",
+      "refund": "Evento gratuito"
+    },
+    "description": "Proyección gratuita de películas clásicas bajo las estrellas."
+  }
+]

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos.app | Catálogo MVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Eventos</h1>
+            </nav>
+    </header>
+
+    <main>
+        <div id="catalog-view">
+            <h2>Catálogo de Eventos</h2>
+            
+            <div id="filters-controls">
+                <div class="filter-group">
+                    <label for="search-input">Buscar:</label>
+                    <input type="text" id="search-input" placeholder="Título, Artista, Ciudad">
+                </div>
+                <div class="filter-group">
+                    <label for="category-select">Categoría:</label>
+                    <select id="category-select">
+                        <option value="">Todas</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="sort-select">Ordenar por:</label>
+                    <select id="sort-select">
+                        <option value="date_asc">Fecha (Más cercano)</option>
+                        <option value="date_desc">Fecha (Más lejano)</option>
+                        <option value="price_asc">Precio (Menor a Mayor)</option>
+                        <option value="popularity_desc">Popularidad</option>
+                    </select>
+                </div>
+                <button id="clear-filters-btn">Limpiar Filtros</button>
+            </div>
+            
+            <section id="events-grid" class="event-list-container">
+                </section>
+            
+            <p id="no-results-message" style="display: none;">No se encontraron eventos con los filtros aplicados. <a href="#" id="clear-filters-link">Limpiar filtros</a></p>
+        </div>
+
+        <div id="detail-view" style="display: none;">
+            </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
